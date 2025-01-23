@@ -24,7 +24,7 @@ class ViewController: UIViewController, UISearchBarDelegate
         super.viewDidLoad()
         searchBar.delegate = self
         bindViewModel()
-        //viewModel.setupSearchFilter()
+        viewModel.setupSearchFilter()
     }
     func bindViewModel(){
         
